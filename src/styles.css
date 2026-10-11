@@ -13,7 +13,7 @@
  --color-accent: var(--accent); --color-accent-foreground: var(--accent-foreground);
  --color-destructive: var(--destructive); --color-destructive-foreground: var(--card);
  --color-border: var(--border); --color-input: var(--border); --color-ring: var(--primary);
- --color-warning: var(--warning); --color-warning-surface: var(--warning-surface);
+ --color-primary-hover: var(--primary-hover); --color-success: var(--success); --color-warning: var(--warning); --color-warning-surface: var(--warning-surface);
  --radius-sm: 4px; --radius-md: 6px; --radius-lg: 8px;
 }
 :root {
