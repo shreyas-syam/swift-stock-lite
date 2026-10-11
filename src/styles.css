@@ -16,141 +16,14 @@
  --color-warning: var(--warning); --color-warning-surface: var(--warning-surface);
  --radius-sm: 4px; --radius-md: 6px; --radius-lg: 8px;
 }
-@layer base {
-  :root {
-    --text-50: #fefee6;
-    --text-100: #fdfdce;
-    --text-200: #fcfc9c;
-    --text-300: #fafa6b;
-    --text-400: #f9f939;
-    --text-500: #f7f708;
-    --text-600: #c6c606;
-    --text-700: #949405;
-    --text-800: #636303;
-    --text-900: #313102;
-    --text-950: #191901;
-    
-    --background-50: #fffbe5;
-    --background-100: #fff6cc;
-    --background-200: #ffee99;
-    --background-300: #ffe666;
-    --background-400: #ffdd33;
-    --background-500: #ffd500;
-    --background-600: #ccaa00;
-    --background-700: #998000;
-    --background-800: #665500;
-    --background-900: #332b00;
-    --background-950: #1a1500;
-    
-    --primary-50: #fbf2ea;
-    --primary-100: #f7e6d4;
-    --primary-200: #efcca9;
-    --primary-300: #e7b37e;
-    --primary-400: #de9954;
-    --primary-500: #d68029;
-    --primary-600: #ab6621;
-    --primary-700: #814d18;
-    --primary-800: #563310;
-    --primary-900: #2b1a08;
-    --primary-950: #150d04;
-    
-    --secondary-50: #fbfde8;
-    --secondary-100: #f7fad1;
-    --secondary-200: #f0f5a3;
-    --secondary-300: #e8f075;
-    --secondary-400: #e1ec46;
-    --secondary-500: #d9e718;
-    --secondary-600: #aeb913;
-    --secondary-700: #828a0f;
-    --secondary-800: #575c0a;
-    --secondary-900: #2b2e05;
-    --secondary-950: #161702;
-    
-    --accent-50: #f1f5f0;
-    --accent-100: #e2ebe0;
-    --accent-200: #c5d6c2;
-    --accent-300: #a8c2a3;
-    --accent-400: #8bad85;
-    --accent-500: #6f9966;
-    --accent-600: #587a52;
-    --accent-700: #425c3d;
-    --accent-800: #2c3d29;
-    --accent-900: #161f14;
-    --accent-950: #0b0f0a;
-    
-  }
-  .dark {
-    --text-50: #191901;
-    --text-100: #313102;
-    --text-200: #636303;
-    --text-300: #949405;
-    --text-400: #c6c606;
-    --text-500: #f7f708;
-    --text-600: #f9f939;
-    --text-700: #fafa6b;
-    --text-800: #fcfc9c;
-    --text-900: #fdfdce;
-    --text-950: #fefee6;
-    
-    --background-50: #1a1500;
-    --background-100: #332b00;
-    --background-200: #665500;
-    --background-300: #998000;
-    --background-400: #ccaa00;
-    --background-500: #ffd500;
-    --background-600: #ffdd33;
-    --background-700: #ffe666;
-    --background-800: #ffee99;
-    --background-900: #fff6cc;
-    --background-950: #fffbe5;
-    
-    --primary-50: #150d04;
-    --primary-100: #2b1a08;
-    --primary-200: #563310;
-    --primary-300: #814d18;
-    --primary-400: #ab6621;
-    --primary-500: #d68029;
-    --primary-600: #de9954;
-    --primary-700: #e7b37e;
-    --primary-800: #efcca9;
-    --primary-900: #f7e6d4;
-    --primary-950: #fbf2ea;
-    
-    --secondary-50: #161702;
-    --secondary-100: #2b2e05;
-    --secondary-200: #575c0a;
-    --secondary-300: #828a0f;
-    --secondary-400: #aeb913;
-    --secondary-500: #d9e718;
-    --secondary-600: #e1ec46;
-    --secondary-700: #e8f075;
-    --secondary-800: #f0f5a3;
-    --secondary-900: #f7fad1;
-    --secondary-950: #fbfde8;
-    
-    --accent-50: #0b0f0a;
-    --accent-100: #161f14;
-    --accent-200: #2c3d29;
-    --accent-300: #425c3d;
-    --accent-400: #587a52;
-    --accent-500: #6f9966;
-    --accent-600: #8bad85;
-    --accent-700: #a8c2a3;
-    --accent-800: #c5d6c2;
-    --accent-900: #e2ebe0;
-    --accent-950: #f1f5f0;
-    
-  }
-}
 :root {
- --background: var(--background-50); --foreground: var(--text-950);
- --card: var(--primary-50); --primary: var(--primary-600); --primary-foreground: var(--text-50);
- --secondary: var(--secondary-100); --secondary-foreground: var(--secondary-800);
- --accent: var(--accent-100); --accent-foreground: var(--accent-700);
- --muted: var(--background-100); --muted-foreground: var(--text-800);
- --border: var(--background-200); --destructive: var(--primary-800);
- --warning: var(--primary-700); --warning-surface: var(--primary-100);
- --shadow-soft: 0 3px 12px color-mix(in srgb, var(--text-950) 5%, transparent);
+ --background:#FFFAF0; --foreground:#292316; --card:#F8EFE3; --elevated:#FFFFFF;
+ --primary:#633B13; --primary-hover:#4E2E0F; --primary-foreground:#FFFAF0;
+ --secondary:#F1E3D0; --secondary-foreground:#633B13;
+ --accent:#E6EEE3; --accent-foreground:#456440; --success:#668D5E;
+ --muted:#F1E3D0; --muted-foreground:#6E6455; --border:#E8D9C4;
+ --destructive:#A33B32; --warning:#87561A; --warning-surface:#F7E9D2; --danger-surface:#F6E1DD;
+ --shadow-soft:0 1px 2px rgb(41 35 22 / 4%), 0 4px 14px rgb(99 59 19 / 6%);
 }
 @layer base { * { border-color: var(--border); letter-spacing: 0; } body { margin:0; background:var(--background); color:var(--foreground); font-family:var(--font-sans); } button, a, input { -webkit-tap-highlight-color: transparent; } button { touch-action:manipulation; } }
 .app-shell { max-width: 760px; min-height:100dvh; margin:0 auto; background:var(--background); }
@@ -197,3 +70,15 @@ h1 { font-size:28px; line-height:1.4; font-weight:750; margin:4px 0; }
 @media(min-width:800px) { body { background:var(--muted); } .app-shell { border-left:1px solid var(--border); border-right:1px solid var(--border); } .app-main { padding-left:40px; padding-right:40px; } .app-header { padding:0 40px; } }
 @media(max-width:380px) { .app-main { padding-left:16px; padding-right:16px; } .app-header { padding:0 16px; } .product-row { padding:12px; gap:8px; } .group-banner { grid-template-columns:minmax(0,1fr) 95px; } .group-banner img { width:105px; } h1 { font-size:25px; } }
 @media(prefers-reduced-motion:reduce) { *, *::before, *::after { animation:none!important; transition:none!important; } }
+
+.summary,.list-surface,.action-tile,.product-row,.nav-item,button{transition:transform 160ms ease,background-color 160ms ease,color 160ms ease,box-shadow 160ms ease,border-color 160ms ease}
+button:active:not(:disabled),.nav-item:active,.action-tile:active{transform:scale(.97)}
+.product-row:hover{background:color-mix(in srgb,var(--secondary) 45%,transparent)}
+.summary{background:var(--elevated)}
+.summary-value{font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.status-pill.danger{background:var(--danger-surface);color:var(--destructive)}
+.nav-item.active{background:var(--secondary);color:var(--primary)}
+.mobile-dialog{background:var(--elevated)}
+:focus-visible{outline:2px solid var(--primary);outline-offset:2px}
+@keyframes kn-fade-up{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.app-main>*{animation:kn-fade-up 220ms ease both}
